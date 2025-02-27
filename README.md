@@ -1,95 +1,173 @@
 # Real-Time Event Ticketing System
 
-This repository contains the implementation of the **Real-Time Event Ticketing System**, a project developed as part of the 2nd-year Object-Oriented Programming (OOP) coursework at the University of Westminster. This system provides seamless functionality for managing event ticketing operations with a focus on scalability, reliability, and efficiency.
+## 🎫 Project Overview
 
-## Project Components
+The **Real-Time Event Ticketing System** is an innovative, multi-component application designed to optimize event ticket management through advanced technology and user-focused design.
 
-The project is divided into three main components:
+## 🌟 Key Features
 
-### 1. Command-Line Interface (CLI)
-The CLI provides basic interactions with the system, allowing users to perform operations such as booking tickets, viewing available events, and checking booking statuses directly from the command line.
+- **Real-time ticket allocation** with concurrent user handling.
+- **Multi-threaded processing** for performance optimization.
+- **Microservices architecture** ensuring modularity and scalability.
+- **Secure and unique ticket ID generation** for authenticity.
+- **Cross-platform accessibility** through CLI and a responsive web frontend.
 
-**Features:**
-- User-friendly text-based interface.
-- Support for core functionalities such as adding events and managing bookings.
-- Easy-to-use commands for efficient navigation.
+## 🏗️ System Architecture
 
-### 2. Backend
-The backend forms the core of the application, built using **Spring Boot** for a robust and scalable architecture. It handles all business logic, data persistence, and API management.
+The system consists of three primary components:
 
-**Key Technologies:**
-- **Spring Boot:** Framework for creating RESTful APIs and managing application logic.
-- **MongoDB:** NoSQL database for storing and managing event and user data.
-- **Multi-threading:** Applied OOP concepts for efficient handling of concurrent operations.
+### 1. Backend (Spring Boot)
 
-**Features:**
-- RESTful API endpoints for ticketing operations.
-- Real-time data management and event handling.
-- Secure and reliable data storage.
+- **Framework:** Spring Boot
+- **Database:** MongoDB
+- **Responsibilities:**
+  - Manages business logic and RESTful API services.
+  - Ensures secure and concurrent ticket processing.
+  - Handles data persistence efficiently.
 
-### 3. Frontend
-The frontend is built using **React js**, offering an intuitive and interactive user experience for end-users. It connects to the backend to retrieve and display data dynamically.
+#### Core Backend Components:
 
-**Key Features:**
-- Modern user interface for browsing events and managing tickets.
-- Responsive design ensuring compatibility across devices.
-- Real-time updates for event and booking statuses.
+- `TicketingSystemProjectApplication` – Main application entry point.
+- `TicketService` – Ticket management logic.
+- `TicketRepository` – Database interaction.
+- `TicketingLogController` – API endpoints.
+- Multi-threading support through `Customer` and `Vendor` classes.
 
-## Installation and Setup
+### 2. Command-Line Interface (CLI)
+
+- **Lightweight text-based interaction** for direct ticket management.
+- **Supports core functionalities:**
+  - Ticket booking
+  - Event management
+  - Booking status tracking
+
+#### CLI Core Components:
+
+- `Main.java` – Application entry point.
+- `Customer.java` – Handles customer operations.
+- `Vendor.java` – Manages vendor interactions.
+- `TicketPool.java` – Allocates tickets efficiently.
+
+### 3. Frontend (React.js)
+
+- **Modern, responsive user interface** with interactive elements.
+- **Real-time data visualization** for better user engagement.
+- **Dynamic UI components** enhancing user experience.
+
+#### Frontend Core Components:
+
+- `App.js` – Main application component.
+- `VendorCustomerManager.jsx` – User management.
+- `ConfigurationForm.jsx` – System settings.
+- `LineChart.jsx` – Data visualization.
+- `LogDisplay.jsx` – Transaction logging.
+
+## 🚀 Installation Guide
 
 ### Prerequisites
-Ensure the following software is installed:
-- **Java Development Kit (JDK) 11 or later**
-- **Node.js and npm**
-- **MongoDB**
 
-### Steps
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/real-time-ticketing-system.git
-   cd real-time-ticketing-system
-   ```
-2. Setup the backend:
-   - Navigate to the backend directory.
-   - Configure the MongoDB connection in `application.properties`.
-   - Run the Spring Boot application:
-     ```bash
-     ./mvnw spring-boot:run
-     ```
-3. Setup the frontend:
-   - Navigate to the frontend directory.
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Start the Angular development server:
-     ```bash
-     ng serve
-     ```
-4. Run the CLI:
-   - Navigate to the CLI directory.
-   - Compile and run the program:
-     ```bash
-     javac Main.java
-     java Main
-     ```
+- Java Development Kit (JDK) 11+
+- Node.js & npm
+- MongoDB
+- Maven
 
-## Features and Functionality
-- Event Management: Add, update, and delete events.
-- Ticket Booking: Real-time booking and availability checks.
-- User Authentication: Secure login and registration (backend support).
-- Multi-threading: Ensures fast and concurrent ticket processing.
+### Setup Instructions
 
-## Contribution
-Contributions are welcome! Please fork the repository and create a pull request for any enhancements or bug fixes.
+#### Clone the Repository:
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+```bash
+git clone https://github.com/your-username/real-time-ticketing-system.git
+cd real-time-ticketing-system
+```
 
-## Acknowledgments
-- University of Westminster for guidance and resources.
-- Mentors and peers for their support throughout the coursework.
+#### Backend Setup:
+
+```bash
+cd Backend/Ticketing-System
+mvn clean install
+mvn spring-boot:run
+```
+
+#### Frontend Setup:
+
+```bash
+cd Frontend
+npm install
+npm start
+```
+
+#### CLI Setup:
+
+```bash
+cd CLI
+javac Main.java
+java Main
+```
+
+## 🔧 Configuration
+
+### Backend Configuration
+
+- Set up MongoDB connection in `application.properties`.
+- Adjust thread pool settings in `application.yml`.
+
+### Frontend Configuration
+
+- Modify API endpoints in `ticketingService.js`.
+- Customize UI components as needed.
+
+## 📊 Performance Optimization
+
+- **Multi-threaded processing** for high-performance ticketing.
+- **Efficient MongoDB queries** to enhance database response time.
+- **Minimal latency design** ensuring seamless user experience.
+
+## 🔒 Security Considerations
+
+- **Secure ticket ID generation** to prevent duplication.
+- **Concurrent access protection** ensuring data integrity.
+- **MongoDB encryption** securing sensitive data.
+- **Input validation** to prevent security vulnerabilities.
+
+## 🧪 Testing Strategy
+
+### Backend Tests:
+
+- Unit tests for services.
+- Integration tests for repositories.
+- Concurrency scenario testing.
+
+### Frontend Tests:
+
+- Component rendering tests.
+- User interaction simulations.
+- API call mocking.
+
+## 📝 Logging and Monitoring
+
+- **Comprehensive transaction logging** for transparency.
+- **Real-time event tracking** for analytics.
+- **Performance metric collection** to optimize efficiency.
+
+## 🤝 Contributing
+
+Want to contribute? Follow these steps:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push to your branch.
+5. Create a Pull Request.
+
+## 📜 License
+
+This project is licensed under the **[Specify License Here]**.
+
+##
 
 ---
 
-Developed by: **Yashith Chandeepa**
+### Developed as part of the **Object-Oriented Programming Coursework** at the University of Westminster.
+
+
+
