@@ -1,0 +1,33 @@
+.ticket-bar-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    right: 120px;
+    top: -100px;
+  }
+  
+  .ticket-bar-info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .ticket-bar {
+    width: 100%;
+    height: 15px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 3px solid #fff;
+  }
+  
+  .ticket-bar-fill {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.4s ease;
+    border-radius: 15px;
+  }

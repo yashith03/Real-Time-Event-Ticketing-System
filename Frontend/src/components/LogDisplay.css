@@ -1,0 +1,84 @@
+.transaction-log {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  border: 2px solid #333;
+  border-radius: 20px;
+  box-shadow: 0 0 4px #00ff0080;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+  top:-930px;
+  right: -660px;
+  
+}
+
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #111;
+  border-bottom: 2px solid #333;
+  color: #0f0;
+}
+
+.clear-button {
+  background-color: #222;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+.clear-button:hover {
+  background-color: #0f0;
+  color: #000;
+}
+
+.log-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.log {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.log-time {
+  color: #555;
+  margin-right: 5px;
+}
+
+.log-info {
+  color: #0f0;
+}
+
+.log-warn {
+  color: #ff0;
+}
+
+.log-error {
+  color: #f00;
+}
+
+/* New styles for start and stop logs */
+.log-start {
+  color: #0f0;
+  
+}
+
+.log-stop {
+  color: #f00;
+  font-weight: bold;
+}

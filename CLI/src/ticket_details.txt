@@ -1,0 +1,77 @@
+Log Date and Time: 2024-12-12 11:31
+Ticket Details
+Total Tickets: 10
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 100
+Number of vendors: 2
+Number of STANDARD customers: 3
+Number of VIP customers: 2
+Total tickets sold: 10
+-------------------------------------------------
+Log Date and Time: 2024-12-12 11:48
+Ticket Details
+Total Tickets: 10
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 3
+Maximum Ticket Capacity in the pool: 20
+Number of vendors: 2
+Number of STANDARD customers: 3
+Number of VIP customers: 2
+Total tickets sold: 10
+-------------------------------------------------
+Log Date and Time: 2024-12-12 11:50
+Ticket Details
+Total Tickets: 2
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 2
+Number of STANDARD customers: 1
+Number of VIP customers: 3
+Total tickets sold: 2
+-------------------------------------------------
+Log Date and Time: 2025-01-15 23:31
+Ticket Details
+Total Tickets: 1
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 1
+Number of STANDARD customers: 1
+Number of VIP customers: 1
+Total tickets sold: 1
+-------------------------------------------------
+Log Date and Time: 2025-01-18 13:34
+Ticket Details
+Total Tickets: 10
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 100
+Number of vendors: 1
+Number of STANDARD customers: 1
+Number of VIP customers: 1
+Total tickets sold: 10
+-------------------------------------------------
+Log Date and Time: 2025-01-18 14:25
+Ticket Details
+Total Tickets: 50
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 100
+Number of vendors: 1
+Number of STANDARD customers: 1
+Number of VIP customers: 2
+Total tickets sold: 50
+-------------------------------------------------
+Log Date and Time: 2025-01-18 14:39
+Ticket Details
+Total Tickets: 10
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 100
+Number of vendors: 2
+Number of STANDARD customers: 1
+Number of VIP customers: 1
+Total tickets sold: 10
+-------------------------------------------------
