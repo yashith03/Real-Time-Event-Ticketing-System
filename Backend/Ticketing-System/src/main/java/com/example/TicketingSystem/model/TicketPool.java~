@@ -1,0 +1,4 @@
+package com.example.TicketingSystem.model;
+
+public class TicketPool {
+}
