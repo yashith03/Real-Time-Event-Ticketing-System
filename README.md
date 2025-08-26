@@ -184,7 +184,13 @@ Use the **Vendor & Customer Manager** panel and add:
 - Use **Clear Logs** to empty the visible log list
 
 ---
-<video controls src="Video Demo - Made with Clipchamp-1.mp4" title="Title"></video>
+
+
+https://github.com/user-attachments/assets/f0976eac-470f-4e74-b293-ee111b9ad03a
+
+
+---
+
 
 ## 📊 Performance
 
@@ -200,8 +206,6 @@ Use the **Vendor & Customer Manager** panel and add:
 - Thread-safe ticket pool
 - Input validation
 - CORS-enabled APIs
-
----
 
 ---
 
