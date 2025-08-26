@@ -1,0 +1,45 @@
+.manager-container{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:14px;
+}
+@media (max-width:880px){ .manager-container{ grid-template-columns:1fr; } }
+
+.card{ /* keep shared card from theme.css */ }
+.manager-card{ text-align:center; padding:16px; }
+.manager-card h3{ margin:0 0 6px; color: var(--muted); }
+.manager-card h2{ margin:6px 0 10px; font-size:2rem; }
+.manager-card .btn{ margin:0 6px; }
+.submit-container{
+  grid-column: 1 / -1;   /* span all three columns */
+  display: flex;
+  justify-content: center;   /* <-- center it */
+  align-items: center;
+  margin-top: 10px;
+}.submit-button{ composes: btn btn-primary from global; } /* if your build supports; else: */
+.submit-button{
+  padding: 10px 30px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg,#7cb1ff,#5a95ff);
+  color: #fff;
+}/* horizontal row for +/- buttons */
+.counter-actions{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* make them square and centered */
+.counter-actions button{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+}
+
+/* if you previously added margins on .card button, neutralize them here */
+.manager-card button + button{ margin-left: 0; }

@@ -1,0 +1,40 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo:6
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: ticketing_db
+    volumes:
+      - mongo_data:/data/db
+
+  backend:
+    build:
+      context: ./Backend/Ticketing-System
+      dockerfile: Dockerfile
+    container_name: ticketing-backend
+    environment:
+      # Point Spring to the mongo container, not localhost
+      SPRING_DATA_MONGODB_URI: mongodb://mongo:27017/ticketing_db
+      # Honours Spring Boot's relaxed binding for server.port
+      SERVER_PORT: 8081
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    container_name: ticketing-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo_data:

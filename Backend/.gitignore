@@ -1,0 +1,76 @@
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+.Spotlight-V100
+.Trashes
+
+# --- IDE / Editors ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+.c9/
+*.swp
+
+# --- Java / Maven / Gradle ---
+**/target/
+**/out/
+*.class
+*.jar
+*.war
+*.ear
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+# If you ever use Gradle
+.gradle/
+**/.gradle/
+
+# --- Logs ---
+logs/
+*.log
+spring.log
+
+# --- Node / React (CRA) ---
+**/node_modules/
+**/build/
+**/dist/
+**/coverage/
+**/.eslintcache
+**/.cache/
+**/.parcel-cache/
+**/.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Env files (keep examples) ---
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# --- Cypress / Playwright (if used) ---
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+blob-report/
+
+# --- Misc ---
+*.pid
+*.pid.lock
+*.orig

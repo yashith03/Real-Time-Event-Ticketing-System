@@ -1,0 +1,87 @@
+/* container */
+.start-stop-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* base button look */
+.start-button,
+.stop-button{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .2px;
+  padding: 16px 34px;
+  border-radius: 12px;
+  min-height: 52px;
+  min-width: 140px;
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: transform .06s ease, filter .2s ease, box-shadow .2s ease;
+}
+
+/* START = GREEN */
+.start-button{
+  background: linear-gradient(180deg,#51e39b,#2ecb77) !important;
+  border-color: #2fb86e !important;
+  box-shadow: 0 8px 22px rgba(46,203,119,.28);
+}
+
+/* STOP = RED */
+.stop-button{
+  background: linear-gradient(180deg,#ff8b8b,#ff6b6b) !important;
+  border-color: #f35b5b !important;
+  box-shadow: 0 8px 22px rgba(255,107,107,.28);
+}
+
+/* hover */
+.start-button:hover,
+.stop-button:hover{
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+}
+
+/* active/pressed */
+.start-button:active,
+.stop-button:active{
+  transform: translateY(0);
+  filter: brightness(.96);
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+}
+
+/* focus ring (keyboard users) */
+.start-button:focus-visible{
+  outline: none;
+  box-shadow:
+    0 0 0 4px rgba(46,203,119,.35),
+    0 8px 22px rgba(46,203,119,.28);
+}
+.stop-button:focus-visible{
+  outline: none;
+  box-shadow:
+    0 0 0 4px rgba(255,107,107,.35),
+    0 8px 22px rgba(255,107,107,.28);
+}
+
+/* disabled */
+.start-button:disabled,
+.stop-button:disabled{
+  opacity: .6;
+  cursor: not-allowed;
+  transform: none;
+  filter: none;
+  box-shadow: none;
+}
+
+/* mobile: stack full width if needed */
+@media (max-width: 600px){
+  .start-button,
+  .stop-button{
+    width: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+.ticket-bar-container{ width:100%; }
+.ticket-bar-info{ font-weight:600; margin-bottom:8px; }
+.ticket-bar{
+  width:100%; height:14px; border-radius:999px; overflow:hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
+  border:1px solid var(--border);
+  box-shadow: inset 0 2px 5px rgba(0,0,0,.15);
+}
+.ticket-bar-fill{
+  height:100%;
+  background: linear-gradient(90deg, #7cb1ff, #3cd47f);
+  box-shadow: inset 0 0 10px rgba(255,255,255,.2);
+  transition: width .35s ease;
+}

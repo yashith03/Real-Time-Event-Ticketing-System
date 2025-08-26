@@ -1,0 +1,154 @@
+Log Date and Time: 2024-12-10 06:01
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 2
+Number of vendors: 2
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-10 20:12
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 2
+Number of vendors: 2
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:32
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 2
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:37
+Ticket Details
+Total Tickets per vendor: 1
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 1
+Number of vendors: 1
+Number of STANDARD customers: 0
+Number of VIP customers: 1
+Total tickets sold: 1
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:44
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 2
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:48
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 2
+Number of STANDARD customers: 1
+Number of VIP customers: 1
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:49
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 2
+Number of vendors: 2
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:50
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 2
+Number of vendors: 2
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:51
+Ticket Details
+Total Tickets per vendor: 1
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 2
+Number of STANDARD customers: 1
+Number of VIP customers: 2
+Total tickets sold: 2
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:52
+Ticket Details
+Total Tickets per vendor: 1
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 6
+Number of STANDARD customers: 1
+Number of VIP customers: 2
+Total tickets sold: 6
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:55
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 1
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 2
+Number of STANDARD customers: 2
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:56
+Ticket Details
+Total Tickets per vendor: 5
+Ticket Release rate (s): 1
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 5
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 25
+-------------------------------------------------
+Log Date and Time: 2024-12-11 04:56
+Ticket Details
+Total Tickets per vendor: 4
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 10
+Number of vendors: 9
+Number of STANDARD customers: 1
+Number of VIP customers: 2
+Total tickets sold: 36
+-------------------------------------------------
+Log Date and Time: 2024-12-11 05:07
+Ticket Details
+Total Tickets per vendor: 2
+Ticket Release rate (s): 2
+Customer Retrieval rate (s): 2
+Maximum Ticket Capacity in the pool: 2
+Number of vendors: 2
+Number of STANDARD customers: 0
+Number of VIP customers: 2
+Total tickets sold: 4
+-------------------------------------------------

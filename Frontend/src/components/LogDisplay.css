@@ -1,0 +1,18 @@
+.transaction-log{ display:flex; flex-direction:column; gap:10px; }
+.log-header{ display:flex; justify-content:space-between; align-items:center; }
+.clear-button{ composes: btn btn-outline btn-sm from global; }
+.clear-button{ padding:6px 10px; border-radius:10px; }
+.terminal{
+  height: 220px;
+  background:#02040a;
+  border: 1px solid #0b1328;
+  border-radius: 14px;
+  color: #7bffa7;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  padding: 10px 12px;
+  overflow:auto;
+  box-shadow: inset 0 0 0 1px rgba(124,177,255,.06);
+}
+.log{ line-height:1.45; margin: 4px 0; }
+.log-start{ color:#7bffa7; }
+.log-stop{ color:#ff6b6b; font-weight:700; }

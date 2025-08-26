@@ -1,0 +1,3 @@
+.chart-container{ width:100%; height:80%}
+.chart-title{ margin:0 0 10px; }
+.recharts-tooltip-wrapper{ background:#0c1224 !important; border:1px solid var(--border); border-radius:10px; }
