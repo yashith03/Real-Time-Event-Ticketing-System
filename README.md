@@ -3,6 +3,13 @@
 An **end-to-end ticketing platform** combining a **Spring Boot backend**, a **React frontend**, and a **Java CLI**, designed to simulate and manage real-time ticket booking, releasing, and monitoring.
 
 ---
+## 🚀 Deployment / Live Demo
+
+- 🌐 **Frontend (Vercel)** → [https://real-time-event-ticketing-system-jet.vercel.app/](https://real-time-event-ticketing-system-jet.vercel.app/)  
+- ⚙️ **Backend (Render)** → *(to be added after backend deploy)*  
+
+---
+
 
 ## 📂 Project Structure
 
@@ -47,8 +54,6 @@ REAL-TIME-EVENT-TICKETING-SYSTEM-MAIN/
 ├── docker-compose.yml            # Orchestration file
 └── README.md                     # Documentation
 ```
-
----
 
 ## 🌟 Features
 
