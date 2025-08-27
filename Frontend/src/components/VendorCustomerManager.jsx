@@ -1,3 +1,6 @@
+//Frontend\src\components\VendorCustomerManager.jsx
+
+
 import React from "react";
 import "./VendorCustomerManager.css";
 

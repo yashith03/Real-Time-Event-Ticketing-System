@@ -1,3 +1,5 @@
+//Frontend\src\components\ConfigurationForm.jsx
+
 import React, { useState } from "react";
 import "./ConfigurationForm.css";
 

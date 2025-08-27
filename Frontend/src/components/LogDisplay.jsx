@@ -1,3 +1,5 @@
+//Frontend\src\components\LogDisplay.jsx
+
 import React, { useEffect, useRef, useState } from "react";
 import "./LogDisplay.css";
 

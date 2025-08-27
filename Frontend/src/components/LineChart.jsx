@@ -1,3 +1,6 @@
+//Frontend\src\components\LineChart.jsx
+
+
 import React from "react";
 import {
   LineChart as RechartsLineChart,  // Rename the imported component

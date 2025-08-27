@@ -1,3 +1,5 @@
+//Frontend\src\App.js
+
 import React, { useCallback, useState } from "react";
 import ConfigurationForm from "./components/ConfigurationForm";
 import VendorCustomerManager from "./components/VendorCustomerManager";
